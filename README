@@ -1,0 +1,9 @@
+Para deixar o projeto configurado corretamente, sempre que instalar uma nova biblioteca como pytest, por exemplo, é necessário rodar o comando `pip freeze > requirements.txt` para atualizar o arquivo de dependências.
+
+## Executando os testes
+
+Quando clonar o repositório siga os seguintes passos: 
+
+0 - Crie um ambiente virtual com o comando `python -m venv venv`
+1 - Ative o ambiente criado com o comando `.\venv\Scripts\activate`
+2 - Instale as dependências do projeto com o comando `pip install -r requirements.txt`
